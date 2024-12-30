@@ -48,7 +48,7 @@ const Stopwatch = () => {
     <div className="stopwatch-container">
       <h1>Stopwatch</h1>
       <div className="time-display">
-        <span>Time</span>
+        <span>Time :</span>
         <span>{formatTime(seconds)}</span>
       </div>
       <div className="buttons">
